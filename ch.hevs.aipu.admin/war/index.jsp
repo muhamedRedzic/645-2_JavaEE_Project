@@ -11,7 +11,6 @@
 </head>
 <body>
 <%@include file="includes/header.jsp" %>
-<h1>Hello, world!</h1>
 
 <div class="btn-group">
     <button type="button" class="btn btn-default">Left</button>
