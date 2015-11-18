@@ -10,9 +10,3 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-<%@include file="includes/header.jsp" %>
-Welcome page
-<%@include file="includes/footer.jsp" %>
-<script src="bootstrap/js/bootstrap.min.js"></script>
-</body>
-</html>
