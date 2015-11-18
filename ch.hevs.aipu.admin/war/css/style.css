@@ -1,0 +1,25 @@
+html, body {
+	height: 80%;
+}
+
+header {
+	position: aboslute;
+	height: 20%
+}
+
+nav {
+	position: absolute;
+}
+
+main {
+	position: relative;
+	margin-top: 5%;
+	height: 120%;
+}
+
+footer {
+	position: relative;
+	height: 10%;
+	clear: both;
+	padding-top: 2em;
+}

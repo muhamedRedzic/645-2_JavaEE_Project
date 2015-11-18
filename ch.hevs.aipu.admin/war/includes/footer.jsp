@@ -1,2 +1,5 @@
+</main>
 <footer>footer</footer>
-<%@include file="footMasterpage.jsp"%>
+<script src="bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
