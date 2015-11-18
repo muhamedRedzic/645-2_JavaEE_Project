@@ -7,10 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%@include file="includes/header.jsp" %>
-Hello !
 
-you can manage your conferences here !
-<%@include file="includes/footer.jsp" %>
 </body>
 </html>
