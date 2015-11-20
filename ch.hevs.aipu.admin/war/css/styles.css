@@ -60,3 +60,7 @@ body {
   border:0 #eee solid;
   border-right-width:5px;
 }
+
+#logoutForm{
+	float:right;
+}
