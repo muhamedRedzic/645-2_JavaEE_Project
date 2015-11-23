@@ -24,23 +24,13 @@ public class Stakeholder {
 	private String email;
 	private String website;
 	
-	//constructors
-	public Stakeholder(String name, StakeholderType type){
-		this.name = name;
-		this.type = type;
-	}
-	public Stakeholder(String name, StakeholderType type, String email){
-		this.name = name;
-		this.type = type;
-		this.email = email;
-	}
+	//constructor
 	public Stakeholder(String name, StakeholderType type, String email, String website){
 		this.name = name;
 		this.type = type;
 		this.email = email;
 		this.website = website;
-	}
-	
+	}	
 	//getter and setter
 	public Long getId() {
 		return id;

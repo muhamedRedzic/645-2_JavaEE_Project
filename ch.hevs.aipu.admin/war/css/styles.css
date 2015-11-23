@@ -32,6 +32,10 @@ overflow-y: scroll;
  margin-top:8%;
 }
 
+.table{
+	width:auto;
+}
+
 @media screen and (min-width: 768px) {
   #masthead h1 {
     font-size: 50px;

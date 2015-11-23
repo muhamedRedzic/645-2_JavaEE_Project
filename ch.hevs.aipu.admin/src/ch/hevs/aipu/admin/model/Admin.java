@@ -9,6 +9,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+import org.apache.geronimo.mail.util.Hex;
+
 @Entity
 public class Admin {
 	@Id
@@ -52,6 +54,7 @@ public class Admin {
 		d.reset();
 		password = "aipu"+password+"isGood";
 		d.update(password.getBytes());
-		return new String(d.digest(), StandardCharsets.UTF_8);
+		password = new String(Hex.encode(d.digest()),StandardCharsets.UTF_8);
+		return password;
 	}
 }
