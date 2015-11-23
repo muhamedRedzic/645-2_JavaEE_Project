@@ -17,7 +17,7 @@
 </nav>
 <main>
     <div class="centerHack">
-      <form class="form-signin">
+      <form action="index.jsp" method="post" class="form-signin">
         <img src="img/logo.png">
         <label for="inputUsername" class="sr-only">Username</label>
         <input type="text" id="inputUsername" class="form-control" placeholder="Username" required autofocus>

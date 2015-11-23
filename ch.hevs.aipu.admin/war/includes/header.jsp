@@ -17,7 +17,7 @@
 				29ème Congrès de l'Association Internationale de Pédagogie
 				Universitaire (AIPU) — 6 au 9 juin 2016 — Lausanne
 
-				<form id="logoutForm">
+				<form action="login.jsp" method="post" id="logoutForm">
 					<button class="btn btn-sm btn-warning" type="submit">Logout</button>
 				</form>
 			</h4>
