@@ -1,4 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<%
+if(session.getAttribute("loggedIn")!=null){
+	response.sendRedirect("index.jsp");
+}
+%>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -17,12 +22,12 @@
 </nav>
 <main>
     <div class="centerHack">
-      <form action="index.jsp" method="post" class="form-signin">
+      <form action="checkLogin.jsp" class="form-signin">
         <img src="img/logo.png">
         <label for="inputUsername" class="sr-only">Username</label>
-        <input type="text" id="inputUsername" class="form-control" placeholder="Username" required autofocus>
+        <input type="text" name="username" id="inputUsername" class="form-control" placeholder="Username" required autofocus>
         <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required>
         <div class="checkbox">
         <!--         
           <label>

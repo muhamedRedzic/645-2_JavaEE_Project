@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
 	pageEncoding="utf-8"%>
+<%@include file="redirect.jsp"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +18,7 @@
 				29ème Congrès de l'Association Internationale de Pédagogie
 				Universitaire (AIPU) — 6 au 9 juin 2016 — Lausanne
 
-				<form action="login.jsp" method="post" id="logoutForm">
+				<form action="checkOut.jsp" method="post" id="logoutForm">
 					<button class="btn btn-sm btn-warning" type="submit">Logout</button>
 				</form>
 			</h4>
