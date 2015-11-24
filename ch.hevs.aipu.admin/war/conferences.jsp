@@ -26,8 +26,8 @@
                  <td>www.conf.com</td>
                  <td>room 1</td>
                  <td>jean</td>
-                 <td><button class="btn btn-lg btn-primary btn-block" type="submit">Modify</button></td>
-                 <td><button class="btn btn-lg btn-primary btn-block" type="submit">Delete</button></td>
+                 <td><button class="btn btn-xs btn-primary" type="submit">Modify</button></td>
+                 <td><button class="btn btn-xs btn-primary" type="submit">Delete</button></td>
                  </tr> 
                  <tr> 
                  <td>Conf 2</td> 
