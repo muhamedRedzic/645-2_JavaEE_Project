@@ -1,13 +1,18 @@
-<%@include file="includes/header.jsp" %>
-      
-      <!--right-->
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+<ui:composition template="/WEB-INF/templates/BasicTemplate.xhtml">
+	<ui:define name="content">
       <div class="col-md-9">
         <h2 id="sec0">Content</h2>
         <p>
           At Bootply we like to build simple Bootstrap templates that utilize the code Bootstap CSS without a lot of customization. Sure you can 
           find a lot of Bootstrap themes and inspiration, but these templates tend to be heavy on customization.</p>
         
-        <hr>
+        <hr></hr>
         <p>
           Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
           dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
@@ -48,7 +53,7 @@
           </div>  
         </div>
         
-        <hr>
+        <hr></hr>
         
         <h2 id="sec2">Section 2</h2>
         <p>
@@ -59,12 +64,12 @@
           Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut!
         </p>
         <div class="row">
-          <div class="col-md-4"><img src="//placehold.it/300x300" class="img-responsive"></div>
-          <div class="col-md-4"><img src="//placehold.it/300x300" class="img-responsive"></div>
-          <div class="col-md-4"><img src="//placehold.it/300x300" class="img-responsive"></div>
+          <div class="col-md-4"><img src="//placehold.it/300x300" class="img-responsive"></img></div>
+          <div class="col-md-4"><img src="//placehold.it/300x300" class="img-responsive"></img></div>
+          <div class="col-md-4"><img src="//placehold.it/300x300" class="img-responsive"></img></div>
         </div>
         
-        <hr>
+        <hr></hr>
         
         <h2 id="sec3">Section 3</h2>
         <p>
@@ -89,13 +94,11 @@
           sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
           Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut.</p>
         
-        <hr>
+        <hr></hr>
         <h4><a href="http://www.bootply.com/Gygh9swISB">Edit on Bootply</a></h4>
-        <hr>
+        <hr></hr>
 
         </div><!--/right-->
-  	</div><!--/row-->
-</div><!--/container-->
-
-
-<%@include file="includes/footer.jsp" %>
+	</ui:define>
+</ui:composition>
+</html>

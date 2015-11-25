@@ -1,6 +1,14 @@
-<%@include file="includes/header.jsp"%>
-<h1>Conferences</h1>
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
 
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+<ui:composition template="templates/BasicTemplate.xhtml">
+	<ui:define name="content">
+	<h1>Conferences</h1>
+<div class="table-responsive">
 <table class="table table-striped table-bordered">
          <thead> 
                  <tr> 
@@ -35,5 +43,7 @@
                  </tr> 
         </tbody> 
 </table>
-
-<%@include file="includes/footer.jsp"%>
+</div>
+	</ui:define>
+</ui:composition>
+</html>
